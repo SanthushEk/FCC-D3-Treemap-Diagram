@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <title>Treemap Diagram</title>
+</head>
+<body>
+    <h2 id="title"> Highest Grossing Movies</h2>
+    <div id="description"> Top 95 Highest Grossing Movies Sorted by Revenue</div>
+    <div class="tooltip-container">
+        <div id='tooltip'></div>
+    </div>
+    
+    <svg id="canvas">
+
+    </svg>
+    <Br></Br>
+<svg id='legend'>
+    <g transform="translate(10,0)">
+        <rect class="legend-item" x="0" y="0" width="40" height="40" fill="#7849b8"></rect>
+        <text x="50" y="20" fill="#ffffff">Action</text>
+    </g>
+    <g transform="translate(120,0)">
+        <rect class="legend-item" x="0" y="0" width="40" height="40" fill="#f2609e"></rect>
+        <text x="50" y="20" fill="#ffffff">Drama</text>
+    </g>
+    <g transform="translate(230,0)">
+        <rect class="legend-item" x="0" y="0" width="40" height="40" fill="#ffd42f"></rect>
+        <text x="50" y="20" fill="#ffffff">Adventure</text>
+    </g>
+    <g transform="translate(360,0)">
+        <rect class="legend-item" x="0" y="0" width="40" height="40" fill="#ffd42f"></rect>
+        <text x="50" y="20" fill="#ffffff">Family</text>
+    </g>
+    <g transform="translate(470,0)">
+        <rect class="legend-item" x="0" y="0" width="40" height="40" fill="#138468"></rect>
+        <text x="50" y="20" fill="#ffffff">Animation</text>
+    </g>
+    <g transform="translate(600,0)">
+        <rect class="legend-item" x="0" y="0" width="40" height="40" fill="#009dd6"></rect>
+        <text x="50" y="20" fill="#ffffff">Comedy</text>
+    </g>
+    <g transform="translate(720,0)">
+        <rect class="legend-item" x="0" y="0" width="40" height="40" fill="#f2609e"></rect>
+        <text x="50" y="20" fill="#ffffff">Biography</text>
+    </g>
+</svg>
+
+<div id="signature">
+    <p>Designed by: Santhush Ekanayke</p>
+    <p>Date: April 8, 2024</p>
+</div>
+
+</body>
+<script deffer src="./script.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>

@@ -1,0 +1,66 @@
+html,body{
+    min-height: 100%;
+    background-color: #1c3144;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+svg{
+    background-color: whitesmoke;
+    margin: 20px;
+}
+
+h2{
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    
+}
+#description{
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 600;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+#canvas{
+    min-width: 1200px;
+    min-height: 700px;
+    border-radius: 20px;
+    border: 2px solid #ffffff ;
+}
+
+#tooltip {
+    height: 120%;
+    width: 120%;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #1c2321;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    visibility: hidden;
+    color: #ffffff;
+    text-align: center;
+    opacity: 0.8;
+}
+
+#legend{
+    height: 40px;
+    width: 850px;
+    background-color: #1c2321;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+}
+
+#signature {
+    bottom: 10px; 
+    text-align: center;
+    color:  #9fb1bc; 
+    font-size: 14px;
+}
